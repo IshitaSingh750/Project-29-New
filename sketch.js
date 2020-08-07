@@ -14,7 +14,7 @@ function setup() {
   ground = new Ground(550, 250, 200, 10);
   ground2 = new Ground(400, 390, 800, 20);
 
-  rock = new Rock(200,250,50,50);
+  rock = new Rock(200,160,50,50);
 
   box8 = new Box(510,235,30,40);
   box9 = new Box(550,235,30,40);
