@@ -26,7 +26,7 @@ function setup() {
   box15 = new Box(580,195,30,40);
   box16 = new Box(550,155,30,40);
 
-  slingshot = new Slingshot(rock.body,{x:150, y:200});
+  slingshot = new Slingshot(rock.body,{x:150, y:0});
 }
 
 function draw() {
