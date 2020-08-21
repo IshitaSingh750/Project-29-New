@@ -4,8 +4,8 @@ class Rock{
 {
     var options = {
         'restitution' :0,
-        'friction' :2.0,
-        'density' :0.5,
+        'friction' :0.5,
+        'density' :0.1,
         'isStatic' :false
     }
     this.body = Bodies.rectangle(x,y,width,height,options);
